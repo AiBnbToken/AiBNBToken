@@ -1,0 +1,46 @@
+.terminal {
+  padding: 1rem;
+  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #A3A3A3;
+  background-color: #1A1A1A;
+  min-height: 24rem;
+}
+
+.commandLine {
+  margin: 0.5rem 0;
+  color: #E5E5E5;
+}
+
+.outputLine {
+  margin: 0.25rem 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.inputLine {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.prompt {
+  color: #F0B90B;
+  margin-right: 0.5rem;
+}
+
+.input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #E5E5E5;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  outline: none;
+}
+
+.input:focus {
+  outline: none;
+} 
